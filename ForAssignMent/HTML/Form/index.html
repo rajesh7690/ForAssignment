@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styels.css">
+</head>
+<body>
+    <h1>Customer Survey Form</h1>
+    <div>
+        <form id="details" name="details" onsubmit="return validate()">
+
+            <label for="fname">First Name</label><br>
+            <input type="text" name="fname" id="fname" class="txt" required><br><br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" name="lname" id="lname" class="txt" required><br><br>
+
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" name="dob" id="dob" required><br><br>
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Nepal">Nepal</option>
+            </select>
+
+            <p>Gender</p>
+            <label for="male">Male</label>
+            <input type="checkbox" name="gender" id="male" value="male" >
+            <label for="female">Female</label>
+            <input type="checkbox" name="gender" id="female" value="female"><br><br>
+
+            <label for="profession">Profession</label><br>
+            <input type="text" name="profession" id="profession" class="txt" required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" class="txt" required><br><br>
+
+            <label for="mobile">Mobile Number</label><br>
+            <input type="number" name="mobile" id="mobile" class="txt" required><br><br>
+
+            <input type="submit" class="btn" value="SUBMIT">
+            <input type="reset" class="btn" value="RESET" >
+        </form>
+    </div>
+    <br><p>&#169 2018 Customer Survey Form. All Rights Reserved | Designed by Rajesh</p>
+    <script src="script.js"></script>
+</body>
+</html>

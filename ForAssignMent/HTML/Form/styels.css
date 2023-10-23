@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(73, 158, 243);
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+h1{
+    text-shadow: 1px 1px #616161;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+form{
+    padding: 2%;
+    background-color: white;
+    color: black;
+    width: 30%;
+    text-align: left;
+}
+.txt{
+    width: 90%;
+    height: 4%;
+}
+.btn{
+    background-color: rgb(73, 158, 243);
+    border-style: none;
+    color: white;
+    margin-right: 20%;
+    margin-left: 5%;
+    padding: 2%;
+}
